@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav div a
+{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+nav div{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background-color: black;
+    padding: 15px 40px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a:hover{
+    color: aqua;
+}
+
+nav div li:last-child a{
+    background-color: orangered;
+    /* Top-Bottom, Left-Right */
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+nav div li:last-child a:hover{
+    background-color: rgb(98, 227, 227);
+    background-color: rgb(217, 217, 97);
+}
+
+nav h2{
+    color: white;
+}
+
+.active{
+    text-decoration: underline rgb(220, 71, 71) double;
+}

@@ -1,0 +1,22 @@
+ol
+{
+    background-color: rgb(198, 135, 198)
+}
+
+ol li 
+{
+    background-color: rgb(146, 236, 236);
+    margin: 10px;
+    text-decoration:none;
+}
+
+h1{
+    background-color: plum;
+    margin: 25px;
+    padding: 25px;
+    height: 50px;
+    box-sizing: content-box;;
+}
+
+
+
