@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+  font-style: normal;
 }
 
 nav div a
@@ -30,7 +33,7 @@ a:hover{
 }
 
 nav div li:last-child a{
-    background-color: orangered;
+    background-color: rgb(218, 88, 8);
     /* Top-Bottom, Left-Right */
     padding: 3px 10px;
     border-radius: 10px;
