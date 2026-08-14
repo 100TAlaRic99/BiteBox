@@ -136,3 +136,87 @@ background-color:darkred;
     font-size: 17px;
     
 }
+
+.card{
+    background-color: rgba(73, 82, 90, 0.185);
+    /* border: 2px black; */
+    
+    text-align: center;
+    padding: 8px;
+    box-shadow: 10px 10px 10px 0px gray; /*horizontal, vertical, blur, spread color */
+    border-radius: 10px
+    
+
+}
+
+.menu-container{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:15px;
+    border: 2px black;
+    
+    
+}
+
+.card img{
+    width:100%;
+    object-fit: cover;
+}
+
+.card button{
+    background: red;
+    color: white;
+    border: none;
+    padding:6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+
+.card button:hover{
+ background-color: darkred;
+}
+
+.icon-box{
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.icon-box img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border:2px solid rgb(234, 234, 69);
+    padding:5px;
+}
+
+.category-icons{
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+   align-items: center;
+   overflow: auto;
+   
+}
+
+.icon-box p{
+   margin-top: 8px; 
+   font-size: 16px;
+
+}
+
+.icon-box img:hover{
+    /*  skew(deg) rotate(deg) translate(12px 12px);*/
+    transform: scale(1.6);
+    border-color: black;
+    transition: 0.5s;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
