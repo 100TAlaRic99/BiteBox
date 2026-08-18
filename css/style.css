@@ -29,11 +29,11 @@ ul{
 }
 
 a:hover{
-    color: aqua;
+    color: rgb(237, 182, 81);
 }
 
 nav div li:last-child a{
-    background-color: rgb(253, 118, 106);
+    background-color: rgb(255, 136, 0);
     /* Top-Bottom, Left-Right */
     padding: 3px 10px;
     border-radius: 10px;
@@ -41,7 +41,7 @@ nav div li:last-child a{
 
 nav div li:last-child a:hover{
     background-color: rgb(98, 227, 227);
-    background-color: rgb(204, 46, 28);
+    background-color: rgb(245, 0, 0);
 }
 
 nav h2{
@@ -319,4 +319,59 @@ cursor: pointer;
     min-width: 20px;
 }
 
+/* Authentication*/
 
+.auth-container{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background:linear-gradient(270deg,red,yellow,rgb(199, 73, 241))
+}
+
+.auth-box{
+ background-color: white;
+ padding: 35px;
+ border-radius: 10px;
+ width:320px;
+ text-align: center;
+ box-shadow:0 8px 25px black; /* horizontal, vertical, blur, spread*/
+
+}
+
+.auth-box h2{
+    color: black;
+    margin-bottom: 20px;
+}
+
+.auth-box input{
+    width:100%;
+    padding: 10px;
+    margin: 10px 0px; /* top - bottom: 10px, left -right: 0px*/
+    border: 1px solid gray;
+    border-radius: 32px;
+    outline:none;
+    
+}
+
+.auth-box input:focus{
+    border-color: rgb(171, 103, 171);
+    
+}
+
+.auth-box button{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(245, 162, 46);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top:5px;
+    margin-bottom:5px;
+    cursor: pointer;
+}
+
+.auth-box a{
+    color: red;
+    text-decoration: none;
+}
