@@ -229,6 +229,7 @@ table{
     margin: auto;
     overflow: hidden;
     margin-top: 25px;
+    margin-bottom: 25px;
 
 }
 
@@ -522,4 +523,62 @@ margin-bottom: 15px;
     color: white;
     padding: 5px 12px;
     border-radius: 10px;
+}
+
+/*Footer Section */
+footer{
+    
+    background-color: black;
+    color: white;
+    padding: 40px;
+
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer h2,h3{
+ /* color: aqua; */
+ margin-bottom: 10px;
+
+}
+
+.footer-box span{
+    color: red;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top:1px solid #333;
+    font-size: 14px;
+}
+
+.footer-box ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.special-icons a{
+display: inline-block;
+background-color:red;
+border-radius: 50%;
+padding: 10px;
+margin-right: 10px;
+
+
+}
+
+.special-icons a:hover{
+color: white;
+background-color: darkred;
 }
